@@ -16,18 +16,23 @@ const HowItWorks: React.FC = () => {
       <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
         <IconBox
           icon={chatbot}
-          heading="Step 1"
-          subheading="Subheading text here"
+          heading="1. Discovery Call"
+          subheading="Connect with us to customize the ideal voicebot experience for your business."
         />
         <IconBox
           icon={ai}
-          heading="Step 2"
-          subheading="Subheading text here"
+          heading="2. Bespoke Strategy"
+          subheading="Get instant insights into potential benefits and savings from our tailored AI solutions."
         />
         <IconBox
           icon={automation}
-          heading="Step 3"
-          subheading="Subheading text here"
+          heading="3. Deployment & Integration"
+          subheading="We build, deploy, and integrate your solution seamlessly into your existing systems."
+        />
+        <IconBox
+          icon={automation}
+          heading="4. Ongoing Support"
+          subheading="Our team provides continuous support post-deployment to resolve any issues and refine performance."
         />
       </div>
       <div className="my-10 flex w-full items-center justify-center">

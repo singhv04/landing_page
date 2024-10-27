@@ -10,17 +10,17 @@ const WhatWeDo: React.FC = () => {
         <IconBox
           icon={chatbot}
           heading="Chatbots"
-          subheading="Subheading text here"
+          subheading="Provide instant, 24/7 customer support with custom chatbots that handle inquiries, free up staff, and enhance the customer experience."
         />
         <IconBox
           icon={ai}
-          heading="Aicaller"
-          subheading="Subheading text here"
+          heading="AI-Callers"
+          subheading="Automate and streamline customer interactions with intelligent voice responses, saving time and ensuring consistent service around the clock."
         />
         <IconBox
           icon={automation}
           heading="Workflow Automation"
-          subheading="Subheading text here"
+          subheading="Simplify routine tasks and integrate processes across platforms to boost productivity, reduce manual errors, and allow your team to focus on strategic goals."
         />
       </div>
     </div>

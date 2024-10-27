@@ -9,18 +9,23 @@ const Benefits: React.FC = () => {
       <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
         <IconBox
           icon={chatbot}
-          heading="Feature 1"
-          subheading="Subheading text here"
+          heading="Enhanced Efficiency"
+          subheading="Automate routine calls, giving your team time to focus on what matters."
         />
         <IconBox
           icon={ai}
-          heading="Feature 2"
-          subheading="Subheading text here"
+          heading="Cost Savings"
+          subheading="Talented staff never gets bored doing mundane tasks, they focus more on value creation while monitoring real time insights from AI automations."
         />
         <IconBox
           icon={automation}
-          heading="Feature 3"
-          subheading="Subheading text here"
+          heading="Improved Customer Experience"
+          subheading="Deliver quick, consistent responses, building customer trust and loyalty."
+        />
+        <IconBox
+          icon={automation}
+          heading="Scalable and Adaptable"
+          subheading="Easily adjust voicebot settings to match your brand and evolve as your business grows."
         />
       </div>
     </div>

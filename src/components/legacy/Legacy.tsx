@@ -19,16 +19,22 @@ const Legacy: React.FC = () => {
           <div className="p-4">
             <ul className="space-y-3">
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Pain Point 1
+                {oldWay} Manual call handling	
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Pain Point 2
+                {oldWay} Limited hours for support
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Pain Point 3
+                {oldWay} High staffing and training costs	
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Pain Point 4
+                {oldWay} Inconsistent customer service	
+              </li>
+              <li className="flex items-center gap-4 text-sm md:text-lg">
+                {oldWay} Limited call insights	
+              </li>
+              <li className="flex items-center gap-4 text-sm md:text-lg">
+                {oldWay} Complex, time-consuming integrations		
               </li>
             </ul>
           </div>
@@ -43,16 +49,22 @@ const Legacy: React.FC = () => {
           <div className="p-4">
             <ul className="space-y-3">
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Solution Point 1
+                {newWay} Automated, intelligent responses
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Solution Point 2
+                {newWay} 24/7 automated assistance
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Solution Point 3
+                {newWay} Consistent, brand-aligned tone
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Solution Point 4
+                {newWay} Cost-effective voice automation
+              </li>
+              <li className="flex items-center gap-4 text-sm md:text-lg">
+                {newWay} Real-time analytics dashboard
+              </li>
+              <li className="flex items-center gap-4 text-sm md:text-lg">
+                {newWay} Seamless integration with existing systems
               </li>
             </ul>
           </div>
