@@ -11,9 +11,9 @@ const HowItWorks: React.FC = () => {
   const [isOpen, toggle] = useToggle();
   const { ai, chatbot, automation } = allIcons;
   return (
-    <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
+    <div className="cg mx-auto w-[90%] text-foreground lg:w-[75%] ">
       <h1 className="header-text">How It Works</h1>
-      <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
+      <div className="grid w-full grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 justify-items-center">
         <IconBox
           icon={chatbot}
           heading="1. Discovery Call"
@@ -35,7 +35,7 @@ const HowItWorks: React.FC = () => {
           subheading="Our team provides continuous support post-deployment to resolve any issues and refine performance."
         />
       </div>
-      <div className="my-10 flex w-full items-center justify-center">
+      <div className="my-14 flex w-full items-center justify-center">
         <BookButton title="Schedule Your Discovery Call" onclick={toggle} />
       </div>
       {isOpen && <ModalBody modal={<CalendlyCard onClose={toggle} />} />}
