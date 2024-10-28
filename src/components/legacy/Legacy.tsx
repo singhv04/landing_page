@@ -11,43 +11,43 @@ const Legacy: React.FC = () => {
       </h1>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
         {/* Old Way Card */}
-        <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg transition-shadow duration-200 hover:shadow-emerald-500/50">
+        <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
           <div className="mb-4 text-center">
-            <h2 className="py-1 text-lg font-semibold md:text-2xl">Old Way</h2>
+            <h2 className="py-1 text-lg font-semibold md:text-xl">Old Way</h2>
             <p className="text-xs text-muted md:text-sm">Common Pain Points</p>
           </div>
           <div className="p-4">
-            <ul className="space-y-3">
+            <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Manual call handling	
+                {oldWay} Manual call handling
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
                 {oldWay} Limited hours for support
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} High staffing and training costs	
+                {oldWay} High staffing and training costs
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Inconsistent customer service	
+                {oldWay} Inconsistent customer service
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Limited call insights	
+                {oldWay} Limited call insights
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Complex, time-consuming integrations		
+                {oldWay} Complex, time-consuming integrations
               </li>
             </ul>
           </div>
         </div>
 
         {/* New Way Card */}
-        <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg transition-shadow duration-200 hover:shadow-emerald-500/50">
+        <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
           <div className="mb-4 text-center">
-            <h2 className="py-1 text-lg font-semibold md:text-2xl">New Way</h2>
+            <h2 className="py-1 text-lg font-semibold md:text-xl">New Way</h2>
             <p className="text-xs text-muted md:text-sm">Proposed Solutions</p>
           </div>
           <div className="p-4">
-            <ul className="space-y-3">
+            <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">
                 {newWay} Automated, intelligent responses
               </li>
