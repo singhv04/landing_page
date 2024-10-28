@@ -5,6 +5,7 @@ import {
 import { SiChatbot, SiOpenai } from "react-icons/si";
 import { TbSettingsAutomation } from "react-icons/tb";
 import { RxCrossCircled } from "react-icons/rx";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 
 export const allIcons = {
@@ -13,5 +14,8 @@ export const allIcons = {
   ai: <SiOpenai size={40} />,
   chatbot: <SiChatbot size={40} />,
   automation: <TbSettingsAutomation size={45} />,
-  close:<RxCrossCircled size={30}/>
+  close:<RxCrossCircled size={30}/>,
+  leftArrow:<FaChevronLeft/>,
+  rightArrow:<FaChevronRight/>
+
 };

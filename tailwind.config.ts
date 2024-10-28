@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#FD6262", // Button and logo color
-        background: "#1A1A1A", // Dark background color
+        background: "#000000", // Dark background color
         foreground: "#FFFFFF", // Main text color
         muted: "#888888", // Muted text color
         accent: "#4A4A4A", // Accent elements or borders
