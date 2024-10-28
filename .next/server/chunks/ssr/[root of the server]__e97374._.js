@@ -357,7 +357,7 @@ const HowItWorks = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         icon: chatbot,
-                        heading: "1. Discovery Call",
+                        heading: "Discovery Call",
                         subheading: "Connect with us to customize the ideal voicebot experience for your business."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/HowItWorks.tsx",
@@ -366,7 +366,7 @@ const HowItWorks = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         icon: ai,
-                        heading: "2. Bespoke Strategy",
+                        heading: "Bespoke Strategy",
                         subheading: "Get instant insights into potential benefits and savings from our tailored AI solutions."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/HowItWorks.tsx",
@@ -375,7 +375,7 @@ const HowItWorks = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         icon: automation,
-                        heading: "3. Deployment & Integration",
+                        heading: "Deployment & Integration",
                         subheading: "We build, deploy, and integrate your solution seamlessly into your existing systems."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/HowItWorks.tsx",
@@ -384,7 +384,7 @@ const HowItWorks = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         icon: automation,
-                        heading: "4. Ongoing Support",
+                        heading: "Ongoing Support",
                         subheading: "Our team provides continuous support post-deployment to resolve any issues and refine performance."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/HowItWorks.tsx",
