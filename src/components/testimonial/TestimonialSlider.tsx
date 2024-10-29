@@ -76,7 +76,7 @@ const TestimonialSlider: React.FC = () => {
               </p>
               {/* Name and position at the bottom */}
               <div>
-                <h3 className="text-md font-semibold text-emerald-400">
+                <h3 className="text-md font-medium text-emerald-500">
                   {testimonial.name}
                 </h3>
                 <p className="text-xs text-muted">{testimonial.position}</p>

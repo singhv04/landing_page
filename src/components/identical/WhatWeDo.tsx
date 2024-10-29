@@ -5,7 +5,7 @@ const WhatWeDo: React.FC = () => {
   const { ai, chatbot, automation } = allIcons;
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
-      <h1 className="header-text">
+      <h1 className="header-text font-medium">
         We seamlessly <span className=" text-emerald-500">build</span> and{" "}
         <span className=" text-emerald-500">launch</span> your AI solutions
       </h1>
@@ -28,9 +28,9 @@ const WhatWeDo: React.FC = () => {
       </div>
       <div className=" w-[80%] mx-auto pt-14">
         <p className=" text-center md:text-xl">
-          We’re with you every step of the way,{" "}
+          We’re with you at every step,{" "}
           <span className=" text-emerald-500">
-            providing ongoing support to resolve any issues after deployment.
+            providing ongoing support</span> & <span className=" text-emerald-500">ensuring a seamless experience.
           </span>
         </p>
       </div>

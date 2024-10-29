@@ -108,7 +108,7 @@ const IconBox = ({ icon, heading, subheading })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-lg font-semibold text-foreground md:text-xl",
+                className: "text-lg font-medium text-foreground md:text-xl",
                 children: heading
             }, void 0, false, {
                 fileName: "[project]/src/components/identical/IconBox.tsx",
@@ -145,7 +145,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const BookButton = ({ title, onclick })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         onClick: onclick,
-        className: "group relative inline-flex items-center justify-center rounded-md bg-gradient-to-r from-emerald-500 to-emerald-700 px-6 py-3 text-xs font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring focus:ring-emerald-300",
+        className: "group relative inline-flex items-center justify-center rounded-md bg-gradient-to-r from-emerald-500 to-emerald-700 px-6 py-3 text-xs font-medium text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring focus:ring-emerald-300",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "absolute inset-0 h-full w-full rounded-md bg-opacity-0 transition duration-300 ease-out group-hover:bg-opacity-10"
@@ -262,7 +262,7 @@ const CalendlyCard = ({ onClose })=>{
                     className: "mb-6 text-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "mb-2 text-xl font-bold text-emerald-500 md:text-3xl",
+                            className: "mb-2 text-xl font-medium text-emerald-500 md:text-3xl",
                             children: "Schedule a Meeting"
                         }, void 0, false, {
                             fileName: "[project]/src/components/calendly/CalendlyCard.tsx",
@@ -345,9 +345,19 @@ const HowItWorks = ()=>{
         className: "cg mx-auto w-[90%] text-foreground lg:w-[75%] ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "header-text",
-                children: "How It Works"
-            }, void 0, false, {
+                className: "header-text font-medium",
+                children: [
+                    "How It Works & ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: " text-emerald-500",
+                        children: "How We Ensure Personalized Quality"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/identical/HowItWorks.tsx",
+                        lineNumber: 15,
+                        columnNumber: 62
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/identical/HowItWorks.tsx",
                 lineNumber: 15,
                 columnNumber: 7
@@ -731,7 +741,7 @@ const TestimonialSlider = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-md font-semibold text-emerald-400",
+                                            className: "text-md font-medium text-emerald-500",
                                             children: testimonial.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/testimonial/TestimonialSlider.tsx",
@@ -804,9 +814,20 @@ const Testimonial = ()=>{
         className: "cg mx-auto w-[80%] text-foreground lg:w-[65%]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "header-text",
-                children: "Testimonials"
-            }, void 0, false, {
+                className: "header-text font-medium",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: " text-emerald-500",
+                        children: "Customer"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/testimonial/Testimonial.tsx",
+                        lineNumber: 13,
+                        columnNumber: 48
+                    }, this),
+                    " Success Stories"
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/testimonial/Testimonial.tsx",
                 lineNumber: 13,
                 columnNumber: 7

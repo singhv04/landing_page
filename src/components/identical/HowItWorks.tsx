@@ -12,7 +12,7 @@ const HowItWorks: React.FC = () => {
   const { ai, chatbot, automation } = allIcons;
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[75%] ">
-      <h1 className="header-text">How It Works</h1>
+      <h1 className="header-text font-medium">How It Works & <span className=" text-emerald-500">How We Ensure Personalized Quality</span></h1>
       <div className="grid w-full grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 justify-items-center">
         <IconBox
           icon={chatbot}

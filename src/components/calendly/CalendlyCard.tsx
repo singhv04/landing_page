@@ -13,7 +13,7 @@ const CalendlyCard: React.FC<CloseModalProps> = ({ onClose }) => {
           {close}
         </div>
         <div className="mb-6 text-center">
-          <h2 className="mb-2 text-xl font-bold text-emerald-500 md:text-3xl">
+          <h2 className="mb-2 text-xl font-medium text-emerald-500 md:text-3xl">
             Schedule a Meeting
           </h2>
           <p className="text-xs text-muted md:text-lg">

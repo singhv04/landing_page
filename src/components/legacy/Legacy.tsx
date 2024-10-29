@@ -6,35 +6,32 @@ const Legacy: React.FC = () => {
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
       {/* Header Section */}
-      <h1 className="header-text mb-8 text-center text-2xl font-bold">
-        Old Way vs New Way
+      <h1 className="header-text mb-8 text-center text-2xl font-medium">
+        Old Way vs  <span className=" text-emerald-500">New Way</span>
       </h1>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
         {/* Old Way Card */}
         <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
-          <div className="mb-4 text-center">
-            <h2 className="py-1 text-lg font-semibold md:text-xl">Old Way</h2>
-            <p className="text-xs text-muted md:text-sm">Common Pain Points</p>
-          </div>
+          
           <div className="p-4">
             <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Manual call handling
+                {oldWay} Manual call handling.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Limited hours for support
+                {oldWay} Limited hours for support.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} High staffing and training costs
+                {oldWay} High staffing and training costs.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Inconsistent customer service
+                {oldWay} Inconsistent customer service.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Limited call insights
+                {oldWay} Limited call insights.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {oldWay} Complex, time-consuming integrations
+                {oldWay} Complex, time-consuming integrations.
               </li>
             </ul>
           </div>
@@ -42,29 +39,26 @@ const Legacy: React.FC = () => {
 
         {/* New Way Card */}
         <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
-          <div className="mb-4 text-center">
-            <h2 className="py-1 text-lg font-semibold md:text-xl">New Way</h2>
-            <p className="text-xs text-muted md:text-sm">Proposed Solutions</p>
-          </div>
+          
           <div className="p-4">
             <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Automated, intelligent responses
+                {newWay} Automated, intelligent responses.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} 24/7 automated assistance
+                {newWay} 24/7 automated assistance.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Consistent, brand-aligned tone
+                {newWay} Consistent, brand-aligned tone.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Cost-effective voice automation
+                {newWay} Cost-effective voice automation.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Real-time analytics dashboard
+                {newWay} Real-time analytics dashboard.
               </li>
               <li className="flex items-center gap-4 text-sm md:text-lg">
-                {newWay} Seamless integration with existing systems
+                {newWay} Seamless integration with existing systems.
               </li>
             </ul>
           </div>
