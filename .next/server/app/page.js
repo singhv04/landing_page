@@ -11,6 +11,10 @@ runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_si_index_mjs_dd28d
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_tb_index_mjs_212de4._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_rx_index_mjs_95ae95._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_a1beb0._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_gi_index_mjs_39fb33._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_md_index_mjs_c71e7d._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_ri_index_mjs_851175._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_bi_index_mjs_fdc4ea._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_b806b5._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_82430c.js");
 runtime.loadChunk("server/chunks/ssr/_37a807._.js");
