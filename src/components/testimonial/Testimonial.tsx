@@ -9,8 +9,11 @@ import CalendlyCard from "../calendly/CalendlyCard";
 const Testimonial: React.FC = () => {
   const [isOpen, toggle] = useToggle();
   return (
-    <div className="cg mx-auto w-[80%] text-foreground lg:w-[65%]">
-      <h1 className="header-text font-medium"> <span className=" text-emerald-500">Customer</span> Success Stories</h1>
+    <div className="cg mx-auto w-[70%] text-foreground">
+      <h1 className="header-text font-medium">
+        {" "}
+        <span className=" text-emerald-500">Customer</span> Success Stories
+      </h1>
       <TestimonialSlider />
       <div className="my-10 flex w-full items-center justify-center">
         <BookButton title="Schedule Your Live Demo" onclick={toggle} />

@@ -227,6 +227,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/tb/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$rx$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/rx/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/gi/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/md/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/ri/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/bi/index.mjs [app-rsc] (ecmascript)");
+;
+;
+;
+;
 ;
 ;
 ;
@@ -239,7 +247,7 @@ const allIcons = {
         fill: "#10b981"
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 12,
+        lineNumber: 15,
         columnNumber: 11
     }, this),
     newWay: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$pi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PiArrowCircleUpRightBold"], {
@@ -247,46 +255,102 @@ const allIcons = {
         fill: "#10b981"
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 11
     }, this),
     ai: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SiOpenai"], {
         size: 40
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 14,
+        lineNumber: 17,
         columnNumber: 7
     }, this),
     chatbot: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SiChatbot"], {
         size: 40
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 15,
+        lineNumber: 18,
         columnNumber: 12
     }, this),
     automation: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TbSettingsAutomation"], {
         size: 45
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 15
     }, this),
     close: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$rx$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["RxCrossCircled"], {
         size: 30
     }, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 17,
-        columnNumber: 9
+        lineNumber: 20,
+        columnNumber: 10
     }, this),
     leftArrow: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaChevronLeft"], {}, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 18,
-        columnNumber: 13
+        lineNumber: 21,
+        columnNumber: 14
     }, this),
     rightArrow: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaChevronRight"], {}, void 0, false, {
         fileName: "[project]/src/icons/all-icons.tsx",
-        lineNumber: 19,
-        columnNumber: 14
+        lineNumber: 22,
+        columnNumber: 15
+    }, this),
+    teamEfficiency: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GiTeamUpgrade"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 23,
+        columnNumber: 19
+    }, this),
+    costSavings: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["MdSavings"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 24,
+        columnNumber: 16
+    }, this),
+    boostExperience: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GiTeamIdea"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 25,
+        columnNumber: 20
+    }, this),
+    scalable: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GiUpgrade"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 26,
+        columnNumber: 13
+    }, this),
+    discoveryCall: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["MdWifiCalling"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 27,
+        columnNumber: 18
+    }, this),
+    bespoke: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["RiUserSettingsFill"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 28,
+        columnNumber: 12
+    }, this),
+    inteegration: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["MdIntegrationInstructions"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 29,
+        columnNumber: 17
+    }, this),
+    support: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BiSupport"], {
+        size: 40
+    }, void 0, false, {
+        fileName: "[project]/src/icons/all-icons.tsx",
+        lineNumber: 30,
+        columnNumber: 12
     }, this)
 };
 }}),
@@ -352,21 +416,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identic
 ;
 ;
 const Benefits = ()=>{
-    const { ai, chatbot, automation } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$icons$2f$all$2d$icons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["allIcons"];
+    const { teamEfficiency, costSavings, boostExperience, scalable } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$icons$2f$all$2d$icons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["allIcons"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "cg mx-auto w-[90%] text-foreground lg:w-[75%]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "header-text font-medium",
                 children: [
-                    "Discover Your ",
+                    "Discover Your",
+                    " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: " text-emerald-500",
                         children: "Competitive Edge"
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/Benefits.tsx",
-                        lineNumber: 8,
-                        columnNumber: 61
+                        lineNumber: 10,
+                        columnNumber: 9
                     }, this),
                     " "
                 ]
@@ -379,45 +444,45 @@ const Benefits = ()=>{
                 className: "grid w-full grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 justify-items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        icon: chatbot,
+                        icon: teamEfficiency,
                         heading: "Enhanced Team Efficiency",
                         subheading: "Streamline workflows with real-time insights, empowering your team to focus on high-impact activities."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/Benefits.tsx",
-                        lineNumber: 10,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        icon: ai,
+                        icon: costSavings,
                         heading: "Cost Savings",
                         subheading: "Cut operational expenses by automating calls, reducing manual tasks, and lowering staffing needs."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/Benefits.tsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        icon: automation,
+                        icon: boostExperience,
                         heading: "Boost Experience",
                         subheading: "Deliver instant, personalized responses to enhance satisfaction and build customer loyalty."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/Benefits.tsx",
-                        lineNumber: 20,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$identical$2f$IconBox$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        icon: automation,
+                        icon: scalable,
                         heading: "Scalable and Adaptable",
                         subheading: "Seamlessly modify settings to align with your brand and scale alongside your business growth."
                     }, void 0, false, {
                         fileName: "[project]/src/components/identical/Benefits.tsx",
-                        lineNumber: 25,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/identical/Benefits.tsx",
-                lineNumber: 9,
+                lineNumber: 12,
                 columnNumber: 7
             }, this)
         ]
