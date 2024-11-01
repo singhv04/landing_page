@@ -1,8 +1,16 @@
+"use client";
+
 import { allIcons } from "@/icons/all-icons";
 import IconBox from "./IconBox";
+import useToggle from "@/hooks/useToggle";
+import ModalBody from "../modal/ModalBody";
+import BookButton from "../button/BookButton";
+import CalendlyCard from "../calendly/CalendlyCard";
 
 const WhatWeDo: React.FC = () => {
+  const [isOpen, toggle] = useToggle();
   const { ai, chatbot, automation } = allIcons;
+  
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
       <h1 className="header-text font-medium">
@@ -34,6 +42,10 @@ const WhatWeDo: React.FC = () => {
           </span>
         </p>
       </div>
+      <div className="my-14 flex w-full items-center justify-center">
+        <BookButton title="Schedule Your AI Audit" onclick={toggle} />
+      </div>
+      {isOpen && <ModalBody modal={<CalendlyCard onClose={toggle} />} />}
     </div>
   );
 };

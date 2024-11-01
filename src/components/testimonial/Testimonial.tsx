@@ -9,7 +9,7 @@ import CalendlyCard from "../calendly/CalendlyCard";
 const Testimonial: React.FC = () => {
   const [isOpen, toggle] = useToggle();
   return (
-    <div className="cg mx-auto w-[70%] text-foreground">
+    <div className="cg mx-auto w-[50%] text-foreground">
       <h1 className="header-text font-medium">
         {" "}
         <span className=" text-emerald-500">Customer</span> Success Stories
