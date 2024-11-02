@@ -5,6 +5,7 @@ export const testimonials: Testimonial[] = [
     name: "Shashank Shekhar",
     position: "Product manager (Retention), Wego",
     text: "Collaborating with this AI agency for chatbot integration was a strategic move. We observed a 20% growth in lead conversions, and the personalized user experiences contributed to a 25% boost in customer retention.",
+    image: "https://github.com/shadcn.png",
   },
   {
     name: "Sushant Mehta",

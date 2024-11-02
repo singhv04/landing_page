@@ -9,10 +9,7 @@ import CalendlyCard from "../calendly/CalendlyCard";
 
 const HowItWorks: React.FC = () => {
   const [isOpen, toggle] = useToggle();
-  const { discoveryCall,
-bespoke,
-inteegration,
-support } = allIcons;
+  const { discoveryCall, bespoke, inteegration, support } = allIcons;
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[75%] ">
       <h1 className="header-text font-medium">
@@ -21,7 +18,7 @@ support } = allIcons;
           How We Ensure Personalized Quality
         </span>
       </h1>
-      <div className="grid w-full grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 justify-items-center">
+      <div className="grid w-full grid-cols-2 gap-4 sm:gap-10 xl:grid-cols-4 xl:gap-6 justify-items-center">
         <IconBox
           icon={discoveryCall}
           heading="Discovery Call"

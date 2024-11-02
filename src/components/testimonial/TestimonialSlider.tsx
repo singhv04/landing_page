@@ -59,7 +59,7 @@ const TestimonialSlider: React.FC = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <div
-              className={`flex h-[450px] w-full flex-col justify-between rounded-md border-2 border-emerald-500/25 bg-background p-6 transition-all duration-300 ${
+              className={`flex h-[450px] w-[255px] mx-auto flex-col justify-between rounded-md border-2 border-emerald-500/25 bg-background p-6 transition-all duration-300 ${
                 index === activeIndex
                   ? "shadow-2xl shadow-emerald-500/50"
                   : "shadow-lg"
