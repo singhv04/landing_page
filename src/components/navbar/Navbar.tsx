@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const [isOpen, toggle] = useToggle();
 
   return (
-    <div className="cg flex items-center justify-between px-3 py-6 md:px-14">
+    <div className=" flex items-center justify-between px-3 py-6 md:px-14">
       <AutomaAILogo />
       <BookButton title="Book Demo" onclick={toggle} />
       {isOpen && <ModalBody modal={<CalendlyCard onClose={toggle} />} />}
