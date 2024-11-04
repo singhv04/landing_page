@@ -10,13 +10,15 @@ const CanvaImage = () => {
   const [isOpen, toggle] = useToggle();
 
   return (
-    <div className="cg">
-      <div className="relative mx-auto mt-4 w-[90%] h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] rounded-lg border-2 border-emerald-500/25 shadow-lg">
+    <div className="cg w-[90%] mx-auto">
+      <div className="flex justify-center mt-2 h-[70%]">
         <Image
           src="/demo.png"
           alt="My Canva Design"
-          fill
-          className="object-cover rounded-lg"
+          width={1293}
+          height={472}
+          quality={100}
+          className="max-w-full h-auto"
         />
       </div>
       <div className="mt-6 flex items-center justify-center md:mt-10">

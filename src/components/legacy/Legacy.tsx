@@ -7,8 +7,11 @@ const Legacy: React.FC = () => {
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
       {/* Header Section */}
       <h1 className="header-text mb-8 text-center text-2xl font-medium">
-        Old Way <span className="hidden">vs</span>{" "}
-        <span className=" text-emerald-500 hidden">New Way</span>
+        Old Way{" "}
+        <span className=" hidden md:inline">
+          <span className="">vs</span>{" "}
+          <span className=" text-emerald-500">New Way</span>
+        </span>
       </h1>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
         {/* Old Way Card */}
