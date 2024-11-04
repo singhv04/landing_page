@@ -35,7 +35,7 @@ const TestimonialSlider: React.FC = () => {
         modules={[Autoplay, Pagination, Navigation]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides={true}
         loop={true}
         onSwiper={(swiper) => (swiperRef.current = swiper)} // Set the swiper instance to the ref
@@ -43,15 +43,12 @@ const TestimonialSlider: React.FC = () => {
         breakpoints={{
           640: {
             slidesPerView: 1,
-            slidesPerGroup: 1,
           },
-          768: {
+          875: {
             slidesPerView: 2,
-            slidesPerGroup: 1,
           },
-          1144: {
+          1290: {
             slidesPerView: 3,
-            slidesPerGroup: 1,
           },
         }}
         className="custom-swiper"
@@ -59,7 +56,7 @@ const TestimonialSlider: React.FC = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <div
-              className={`flex h-[450px] w-[255px] mx-auto flex-col justify-between rounded-md border-2 border-emerald-500/25 bg-background p-6 transition-all duration-300 ${
+              className={`flex h-[450px] w-[275px] mx-auto flex-col justify-between rounded-md border-2 border-emerald-500/25 bg-background p-6 transition-all duration-300 ${
                 index === activeIndex
                   ? "shadow-2xl shadow-emerald-500/50"
                   : "shadow-lg"
@@ -86,12 +83,12 @@ const TestimonialSlider: React.FC = () => {
 
               {/* Name and position at the bottom */}
               <div className="flex items-center space-x-2">
-                <div className="relative flex items-center justify-center w-10 h-10 rounded-full bg-background text-emerald-500 font-bold text-sm overflow-hidden border-2 border-emerald-500/45">
+                <div className="relative flex items-center justify-center w-[40px] h-[40px] rounded-full bg-background text-emerald-500 font-bold text-sm overflow-hidden border-2 border-emerald-500/45">
                   {testimonial?.image ? (
                     <Image
                       src={testimonial?.image}
                       fill
-                      sizes="(max-width: 768px) 40px, (max-width: 1200px) 50px, 64px"
+                      sizes="(max-width: 768px) 40px, (max-width: 1200px) 50px"
                       alt={`${testimonial.name}'s profile`}
                       className="w-full h-full object-cover rounded-full"
                     />
