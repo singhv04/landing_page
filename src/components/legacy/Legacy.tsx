@@ -7,12 +7,12 @@ const Legacy: React.FC = () => {
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
       {/* Header Section */}
       <h1 className="header-text mb-8 text-center text-2xl font-medium">
-        Old Way vs  <span className=" text-emerald-500">New Way</span>
+        Old Way <span className="hidden">vs</span>{" "}
+        <span className=" text-emerald-500 hidden">New Way</span>
       </h1>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
         {/* Old Way Card */}
         <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
-          
           <div className="p-4">
             <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">
@@ -37,9 +37,11 @@ const Legacy: React.FC = () => {
           </div>
         </div>
 
+        <h1 className="header-text mb-0 text-center text-2xl font-medium md:hidden text-emerald-500">
+          New Way
+        </h1>
         {/* New Way Card */}
         <div className="flex flex-col justify-between rounded-lg border-2 border-emerald-500/25 bg-background p-6 shadow-lg shadow-emerald-500/50">
-          
           <div className="p-4">
             <ul className="space-y-3 text-muted">
               <li className="flex items-center gap-4 text-sm md:text-lg">

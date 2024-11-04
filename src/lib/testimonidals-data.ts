@@ -3,18 +3,21 @@ import { Testimonial } from "@/types/all-types";
 export const testimonials: Testimonial[] = [
   {
     name: "Shashank Shekhar",
-    position: "Product manager (Retention), Wego",
+    position: "Product manager, Wego",
     text: "Collaborating with this AI agency for chatbot integration was a strategic move. We observed a 20% growth in lead conversions, and the personalized user experiences contributed to a 25% boost in customer retention.",
+    image: "https://github.com/shadcn.png",
   },
   {
     name: "Sushant Mehta",
     position: "Co-Founder,Wiser",
     text: "The precision and intelligence embedded in the chatbot solutions were truly commendable. Noteworthy was the 15% increase in first-contact query resolution, reflecting the AI agency's commitment to excellence.",
+    image: "https://github.com/shadcn.png",
   },
   {
     name: "Neelabh Singh",
     position: "Co-Founder, Lushful",
     text: "Incorporating automation solutions from this AI agency was transformative. They not only elevated our workflow efficiency, realizing a 20% drop in manual errors, but also imparted invaluable insights into AI's role, contributing to a significant 15% boost in overall productivity. Their expertise and guidance have been instrumental in our success.",
+    image: "https://github.com/shadcn.png",
   },
   {
     name: "Pranav Gupta",

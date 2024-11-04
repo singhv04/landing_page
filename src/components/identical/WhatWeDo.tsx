@@ -10,14 +10,14 @@ import CalendlyCard from "../calendly/CalendlyCard";
 const WhatWeDo: React.FC = () => {
   const [isOpen, toggle] = useToggle();
   const { ai, chatbot, automation } = allIcons;
-  
+
   return (
     <div className="cg mx-auto w-[90%] text-foreground lg:w-[65%]">
       <h1 className="header-text font-medium">
         We seamlessly <span className=" text-emerald-500">build</span> and{" "}
         <span className=" text-emerald-500">launch</span> your AI solutions
       </h1>
-      <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
+      <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-3 justify-items-center md:gap-6">
         <IconBox
           icon={chatbot}
           heading="Chatbots"
@@ -37,8 +37,9 @@ const WhatWeDo: React.FC = () => {
       <div className=" w-[80%] mx-auto pt-14">
         <p className=" text-center md:text-xl">
           We’re with you at every step,{" "}
+          <span className=" text-emerald-500">providing ongoing support</span> &{" "}
           <span className=" text-emerald-500">
-            providing ongoing support</span> & <span className=" text-emerald-500">ensuring a seamless experience.
+            ensuring a seamless experience.
           </span>
         </p>
       </div>

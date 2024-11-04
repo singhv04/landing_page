@@ -9,7 +9,7 @@ const Benefits: React.FC = () => {
         Discover Your{" "}
         <span className=" text-emerald-500">Competitive Edge</span>{" "}
       </h1>
-      <div className="grid w-full grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 justify-items-center">
+      <div className="grid w-full grid-cols-2 gap-4 sm:gap-10 xl:grid-cols-4 xl:gap-6 justify-items-center">
         <IconBox
           icon={teamEfficiency}
           heading="Enhanced Team Efficiency"
