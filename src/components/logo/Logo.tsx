@@ -40,7 +40,7 @@ const AutomaAILogo: React.FC<LogoProps> = ({ width = "36", height = "36" }) => {
         fontFamily="Arial, sans-serif"
         fill="#FFFFFF"
       >
-        AutomaAI
+        Automa-AI
       </text>
     </svg>
   );

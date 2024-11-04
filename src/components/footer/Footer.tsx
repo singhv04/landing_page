@@ -8,11 +8,11 @@ const Footer: React.FC = () => {
       </div>
       <hr className="my-4 border-emerald-500/25" />
       <div className="text-center text-xs text-muted md:text-sm">
-        <p>&copy; 2024 AutomaAi. All rights reserved.</p>
-        <p>
+        <p>&copy; 2024 Automa-AI. All rights reserved.</p>
+        {/* <p>
           <span className="text-emerald-500">Terms of Service</span> &{" "}
           <span className="text-emerald-500">Privacy Policy</span>
-        </p>
+        </p> */}
       </div>
     </div>
   );

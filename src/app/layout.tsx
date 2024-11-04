@@ -8,7 +8,7 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "AutomaAi",
+  title: "Automa-AI",
   description: "An Ai caller.",
 };
 
