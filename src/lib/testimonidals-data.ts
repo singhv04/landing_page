@@ -13,7 +13,8 @@ export const testimonials: Testimonial[] = [
     text: "Collaborating with this AI agency for chatbot integration was a strategic move. We observed a 20% growth in lead conversions, and the personalized user experiences contributed to a 25% boost in customer retention.",
     image: "https://github.com/shadcn.png",
   },
-  
+
+
   {
     name: "Sushant Mehta",
     position: "Co-Founder,Wiser",
@@ -21,9 +22,24 @@ export const testimonials: Testimonial[] = [
   },
   
   {
+    name: "wellbuddy",
+    position: "France",
+    text: "I am very happy of the collaboration with them on my integration project. They was very reactive and immediately understood the problem I was facing in my project. Would recommend their services without hesitating.",
+    image: "/testimonial_imgs/wellbuddy.webp",
+  },
+
+
+  {
     name: "Neelabh Singh",
     position: "Co-Founder, Lushful",
     text: "Incorporating automation solutions from this AI agency was transformative. They not only elevated our workflow efficiency, realizing a 20% drop in manual errors, but also imparted invaluable insights into AI's role, contributing to a significant 15% boost in overall productivity. Their expertise and guidance have been instrumental in our success.",
+  },
+  
+  {
+    name: "Ram Chella",
+    position: "CEO, FoodieBot",
+    text: "The AI-powered order-taking system and WebRTC module have completely transformed our platform. The real-time video and voice features have created a more interactive experience for our customers, and the AI phone assistant has made it possible to handle thousands of orders every day without any hiccups. Our restaurants are seeing more orders, fewer mistakes, and happier customers.",
+    image: "/testimonial_imgs/RamChella.jpeg",
   },
 
   {
@@ -31,12 +47,7 @@ export const testimonials: Testimonial[] = [
     position: "Founding Member,Quinta de Monserrate",
     text: "Implementing the AI chatbot has been a huge success for us. Not only has it streamlined the booking process across out multiple locations, but it has also improved our ability to engage with customers in a meaningful way. Our stuff are less overwhelmed, our clients are happier, and the insights we gain from the chatbot are invaluable for ourr future growth. Quinta de Monserrate can now expand confidently, knowing that we have a system that grows with us.",
   },
-  {
-    name: "Ram Chella",
-    position: "CEO, FoodieBot",
-    text: "The AI-powered order-taking system and WebRTC module have completely transformed our platform. The real-time video and voice features have created a more interactive experience for our customers, and the AI phone assistant has made it possible to handle thousands of orders every day without any hiccups. Our restaurants are seeing more orders, fewer mistakes, and happier customers.",
-    image: "/testimonial_imgs/RamChella.jpeg",
-  },
+
   
   {
     name: "jordanstubb",
@@ -76,12 +87,6 @@ export const testimonials: Testimonial[] = [
   },
 
 
-  {
-    name: "wellbuddy",
-    position: "France",
-    text: "I am very happy of the collaboration with them on my integration project. They was very reactive and immediately understood the problem I was facing in my project. Would recommend their services without hesitating.",
-    image: "/testimonial_imgs/wellbuddy.webp",
-  },
 
   {
     name: "jammy1",
