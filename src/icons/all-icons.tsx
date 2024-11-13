@@ -10,6 +10,7 @@ import { GiTeamIdea, GiTeamUpgrade, GiUpgrade } from "react-icons/gi";
 import { MdIntegrationInstructions, MdSavings, MdWifiCalling } from "react-icons/md";
 import { RiUserSettingsFill } from "react-icons/ri";
 import { BiSupport } from "react-icons/bi";
+import { IoClose } from "react-icons/io5";
 
 export const allIcons = {
   oldWay: <PiArrowCircleDownRightBold size={28} fill="#10b981" />,
@@ -28,4 +29,5 @@ export const allIcons = {
   bespoke: <RiUserSettingsFill size={40} />,
   inteegration: <MdIntegrationInstructions size={40} />,
   support: <BiSupport size={40} />,
+  chatClose: <IoClose size={28} />,
 };

@@ -104,7 +104,7 @@ const TestimonialSlider: React.FC = () => {
                   <h3 className="text-md font-medium text-emerald-500">
                     {testimonial.name}
                   </h3>
-                  <p className="text-xs text-muted">{testimonial.position}</p>
+                  <p className="text-xs text-muted text-wrap">{testimonial.position}</p>
                 </div>
               </div>
             </div>

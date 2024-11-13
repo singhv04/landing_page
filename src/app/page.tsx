@@ -1,3 +1,7 @@
+"use client";
+
+import Chatbot from "@/components/button/Chatbot";
+import Chatbox from "@/components/chatbot/Chatbox";
 import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import Benefits from "@/components/identical/Benefits";
@@ -7,8 +11,11 @@ import Legacy from "@/components/legacy/Legacy";
 import Navbar from "@/components/navbar/Navbar";
 import Testimonial from "@/components/testimonial/Testimonial";
 import VideoBox from "@/components/video/DemoVideo";
+import useToggle from "@/hooks/useToggle";
 
 export default function Home() {
+  const [isOpen, toggle] = useToggle();
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       <Navbar />
@@ -16,8 +23,8 @@ export default function Home() {
       <VideoBox />
       <Legacy />
       <WhatWeDo />
-      <Benefits/>
-      <HowItWorks/>
+      <Benefits />
+      <HowItWorks />
       <Testimonial />
       <Footer />
 
@@ -27,6 +34,11 @@ export default function Home() {
         <div className="hero-ring size-[320px] md:size-[620px]"></div>
         <div className="hero-ring size-[620px] md:size-[820px]"></div>
         <div className="hero-ring size-[820px] md:size-[1020px]"></div>
+      </div>
+
+      {/* Chatbot button and chatbox */}
+      <div className="fixed bottom-10 right-6 z-50">
+        {!isOpen ? <Chatbot toggle={toggle} /> : <Chatbox toggle={toggle} />}
       </div>
     </div>
   );
