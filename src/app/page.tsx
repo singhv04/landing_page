@@ -12,9 +12,22 @@ import Navbar from "@/components/navbar/Navbar";
 import Testimonial from "@/components/testimonial/Testimonial";
 import VideoBox from "@/components/video/DemoVideo";
 import useToggle from "@/hooks/useToggle";
+import { useEffect } from "react";
 
 export default function Home() {
   const [isOpen, toggle] = useToggle();
+  // Disable scrolling when chatbox is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"; // Disable page scrolling
+    } else {
+      document.body.style.overflow = "auto"; // Enable page scrolling
+    }
+
+    return () => {
+      document.body.style.overflow = "auto"; // Ensure page scrolling is enabled on cleanup
+    };
+  }, [isOpen]);
 
   return (
     <div className="relative min-h-screen overflow-hidden">
