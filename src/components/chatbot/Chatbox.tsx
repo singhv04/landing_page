@@ -9,7 +9,7 @@ import ChatLogoIcon from "../logo/ChatLogoIcon";
 import UserResponse from "./UserResponse";
 import BotResponse from "./BotResponse";
 
-const Chatbox: React.FC<ChatbotProps> = ({ toggle }) => {
+const Chatbox: React.FC = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<
     { id: number; text: string; sender: string }[]
@@ -41,6 +41,11 @@ const Chatbox: React.FC<ChatbotProps> = ({ toggle }) => {
     setMessage(event.target.value);
   };
 
+  const handleClose = () => {
+    // Send a message to the parent window to close the chatbox
+    window.parent.postMessage({ action: "closeChatbox" }, "*");
+  };
+
   // Handle the submission of the message
   const handleSubmit = () => {
     if (message.trim()) {
@@ -59,16 +64,17 @@ const Chatbox: React.FC<ChatbotProps> = ({ toggle }) => {
         setMessages((prevMessages) => [...prevMessages, botResponse]); // Add bot's response
       }, 1000);
     }
-    console.log(messages);
   };
+
   const { chatClose, send } = allIcons;
+
   return (
-    <div className="bg-gray-900 w-[360px] h-[640px] rounded-lg shadow-lg flex flex-col border border-emerald-500/25 overflow-hidden">
+    <div className="bg-gray-900 w-full h-screen rounded-lg shadow-lg flex flex-col border border-emerald-500/25 overflow-hidden">
       {/* Header */}
       <div className="bg-gray-800 flex items-center justify-between p-3 text-white">
         <AutomaAILogo />
         <div>
-          <div onClick={toggle} className=" text-gray-500 cursor-pointer">
+          <div onClick={handleClose} className=" text-gray-500 cursor-pointer">
             {chatClose}
           </div>
         </div>
