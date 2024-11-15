@@ -20,3 +20,9 @@ export type ModalBodyProps = {
 export type CloseModalProps = {
   onClose: () => void;
 };
+export type ChatbotProps = {
+  toggle: () => void;
+};
+export type ResponseProps = {
+  text: string;
+};
