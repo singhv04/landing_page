@@ -1,4 +1,10 @@
 import React from "react";
+import { Poppins } from "next/font/google";
+
+const font = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+});
 
 interface LogoProps {
   width?: string;
@@ -10,7 +16,7 @@ const AutomaAILogo: React.FC<LogoProps> = ({ width = "36", height = "36" }) => {
     <svg
       width={parseInt(width) + 200}
       height={height}
-      viewBox="0 0 1100 200" // Adjusted viewBox to fit logo and text horizontally
+      viewBox="0 0 1100 200"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-label="AutomaAI Logo"
@@ -33,11 +39,11 @@ const AutomaAILogo: React.FC<LogoProps> = ({ width = "36", height = "36" }) => {
 
       {/* Aligned text */}
       <text
-        x="250" // Adjusted x to move text beside the logo
-        y="135" // y aligned vertically with the logo
-        fontSize="120" // Font size to match logo height
+        x="250"
+        y="135"
+        fontSize="120"
         fontWeight="bold"
-        fontFamily="Arial, sans-serif"
+        className={font.className} // Apply the font class
         fill="#FFFFFF"
       >
         Automa-AI
