@@ -7,21 +7,16 @@ import Benefits from "@/components/identical/Benefits";
 import HowItWorks from "@/components/identical/HowItWorks";
 import WhatWeDo from "@/components/identical/WhatWeDo";
 import Legacy from "@/components/legacy/Legacy";
+import Loader from "@/components/loader/Loader";
 import Navbar from "@/components/navbar/Navbar";
 import Testimonial from "@/components/testimonial/Testimonial";
 import VideoBox from "@/components/video/DemoVideo";
 import useToggle from "@/hooks/useToggle";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isOpen, toggle] = useToggle();
-  useEffect(() => {
-    // Disable scrolling on the main page when chatbox is open
-    document.body.style.overflow = isOpen ? "hidden" : "auto";
-    return () => {
-      document.body.style.overflow = "auto"; // Ensure scrolling is re-enabled on cleanup
-    };
-  }, [isOpen]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
@@ -36,6 +31,15 @@ export default function Home() {
       window.removeEventListener("message", handleMessage);
     };
   }, [toggle]);
+
+  const handleIframeLoad = () => {
+    setIsLoading(false); // Stop showing spinner when iframe is loaded
+  };
+
+  const handleToggle = () => {
+    setIsLoading(true); // Show spinner when opening iframe
+    toggle();
+  };
 
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -58,14 +62,18 @@ export default function Home() {
       </div>
 
       {/* Chatbot button and chatbox */}
-      <div className="fixed bottom-10 right-6 z-50 overflow-hidden ">
+      <div className="fixed bottom-10 right-6 z-50 overflow-hidden">
         {!isOpen ? (
-          <Chatbot toggle={toggle} />
+          <Chatbot toggle={handleToggle} />
         ) : (
-          <iframe
-            src="/chatbox"
-            className="overflow-hidden w-[365px] h-[655px] rounded-lg shadow-lg border border-emerald-500/25"
-          ></iframe>
+          <div className="relative w-[365px] h-[655px]">
+            {isLoading && <Loader />}
+            <iframe
+              src="/chatbox"
+              onLoad={handleIframeLoad}
+              className="overflow-hidden w-full h-full rounded-lg shadow-lg border border-emerald-500/25"
+            ></iframe>
+          </div>
         )}
       </div>
     </div>
