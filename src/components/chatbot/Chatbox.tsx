@@ -6,6 +6,7 @@ import Image from "next/image";
 import ChatLogoIcon from "../logo/ChatLogoIcon";
 import UserResponse from "./UserResponse";
 import BotResponse from "./BotResponse";
+import { fetchUserIP } from "@/utils/FetchUserIP";
 
 const Chatbox: React.FC = () => {
   const [message, setMessage] = useState("");
@@ -18,42 +19,31 @@ const Chatbox: React.FC = () => {
 
   const RETENTION_TIME = 60000; // 60 seconds in milliseconds
 
-  // Fetch user's IP address
-  const fetchUserIP = async () => {
-    try {
-      const response = await fetch("http://ip-api.com/json/");
-      const data = await response.json();
-      const ipLocation = {
-        city: data.city,
-        region: data.regionName,
-        country: data.country,
-      };
-      console.log(ipLocation);
-      const ip = data.query;
-      return ip;
-    } catch (error) {
-      console.error("Failed to fetch IP address:", error);
-      return null;
-    }
-  };
-
   // Load messages from localStorage and check expiration
   const loadMessages = async () => {
-    const ip = await fetchUserIP();
-    setUserIP(ip);
+    try {
+      const ipData = await fetchUserIP(); // Fetch user IP and location
+      if (ipData && ipData.ip) {
+        const { ip } = ipData; // Destructure IP
+        setUserIP(ip); // Update state with the IP
 
-    if (ip) {
-      const storedData = localStorage.getItem(`chatbox_${ip}`);
-      if (storedData) {
-        const { messages, timestamp } = JSON.parse(storedData);
+        // Retrieve stored messages from localStorage
+        const storedData = localStorage.getItem(`chatbox_${ip}`);
+        if (storedData) {
+          const { messages, timestamp } = JSON.parse(storedData);
 
-        // Check if the retention time has expired
-        if (Date.now() - timestamp > RETENTION_TIME) {
-          localStorage.removeItem(`chatbox_${ip}`);
-        } else {
-          setMessages(messages);
+          // Check if retention time has expired
+          if (Date.now() - timestamp > RETENTION_TIME) {
+            localStorage.removeItem(`chatbox_${ip}`);
+          } else {
+            setMessages(messages);
+          }
         }
+      } else {
+        console.error("Failed to fetch IP or IP is missing.");
       }
+    } catch (error) {
+      console.error("Error loading messages:", error);
     }
   };
 
