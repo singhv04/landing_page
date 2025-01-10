@@ -26,3 +26,11 @@ export type ChatbotProps = {
 export type ResponseProps = {
   text: string;
 };
+ export type IPInfo = {
+   ip: string;
+   ipLocation: {
+     city: string;
+     region: string;
+     country: string;
+   };
+ } | null;

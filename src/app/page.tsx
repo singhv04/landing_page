@@ -12,11 +12,31 @@ import Navbar from "@/components/navbar/Navbar";
 import Testimonial from "@/components/testimonial/Testimonial";
 import VideoBox from "@/components/video/DemoVideo";
 import useToggle from "@/hooks/useToggle";
+import { fetchUserIP } from "@/utils/FetchUserIP";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isOpen, toggle] = useToggle();
   const [isLoading, setIsLoading] = useState(false);
+
+  // Tracking ip adress who have visited the website
+  useEffect(() => {
+    const fetchIp = async () => {
+      try {
+        const ipData = await fetchUserIP(); // Call the IP-fetching function
+        if (ipData && ipData.ip && ipData.ipLocation) {
+          const { ip, ipLocation } = ipData; // Safely destructure IP and location
+          console.log("IP of visitor:", ip, ipLocation);
+        } else {
+          console.error("Failed to retrieve IP data or IP is missing.");
+        }
+      } catch (error) {
+        console.error("Error fetching IP:", error);
+      }
+    };
+
+    fetchIp();
+  }, []);
 
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
